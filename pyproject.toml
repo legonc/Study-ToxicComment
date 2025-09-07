@@ -1,10 +1,27 @@
 [project]
-name = "Study-ToxicComment"
+name = "study-toxiccomment"
 version = "0.1.0"
-authors = [{ name = "Дмитрий Бервинов" }]
+
+author = [{ name = "Дмитрий Бервинов" }]
+
 license = { text = "MIT" }
-requires-python = ">= 3.11.9"
+description = "Data Science проект"
+readme = "README.md"
+requires-python = ">=3.11.9"
 dependencies = [
     "jupyterlab>=4.4.7",
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
     "notebook>=7.4.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "pip>=25.2",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.16.1",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.56.1",
+    "uv>=0.8.15",
 ]
+
